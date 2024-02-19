@@ -1,0 +1,49 @@
+body {
+    /* background-image: url("https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706313600&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+   
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 85%;
+    max-width: 400px; /* Limit the maximum width of the container */
+    padding: 20px; /* Add some padding for better readability */
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column; /* Stack input elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+.login input {
+    margin: 10px 0; /* Add equal margin top and bottom */
+    padding: 8px; /* Add padding for better input appearance */
+}
+
+.login button {
+    margin-top: 10px; /* Increase top margin */
+    padding: 8px 20px; /* Increase padding for better button appearance */
+    background-color: #007bff; /* Add a primary color for the button */
+    color: white; /* Set text color to white */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.login button:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+}
+

@@ -1,0 +1,25 @@
+.nav {
+    background-color: aqua;
+    padding: 10px 20px;
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    width: 100vw;
+}
+
+h2 {
+    margin-right: 30px;
+}
+
+ul {
+    display: flex;
+    align-items: flex-start !important; /* Align items to the top */
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
